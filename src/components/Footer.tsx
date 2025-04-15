@@ -11,42 +11,42 @@ export default function Footer() {
             <p className="text-gray-300 text-sm">
               Especialistas em formatação e serviços de informática para sua empresa ou residência.
             </p>
-            <div className="flex space-x-4">
-  <Link href="#" className="text-gray-400 hover:text-white">
-    <Facebook size={20} />
-  </Link>
-  <Link href="#" className="text-gray-400 hover:text-white">
-    <Instagram size={20} />
-  </Link>
-  <Link href="#" className="text-gray-400 hover:text-white">
-    <Twitter size={20} />
-  </Link>
-  <Link href="#" className="text-gray-400 hover:text-white">
-    <Linkedin size={20} />
-  </Link>
-</div>
-          </div>
+              <div className="flex space-x-4">
+      <Link href="#" className="text-gray-400 hover:text-white">
+        <Facebook size={20} />
+      </Link>
+      <Link href="#" className="text-gray-400 hover:text-white">
+        <Instagram size={20} />
+      </Link>
+      <Link href="#" className="text-gray-400 hover:text-white">
+        <Twitter size={20} />
+      </Link>
+      <Link href="#" className="text-gray-400 hover:text-white">
+        <Linkedin size={20} />
+      </Link>
+    </div>
+              </div>
           
           <div>
             <h3 className="text-lg font-bold mb-4">Serviços</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/servicos/windows" className="text-gray-300 hover:text-white text-sm">
+                <Link href="/servicos/page" className="text-gray-300 hover:text-white text-sm">
                   Formatação Windows
                 </Link>
               </li>
               <li>
-                <Link href="/servicos/linux" className="text-gray-300 hover:text-white text-sm">
+                <Link href="/servicos/page" className="text-gray-300 hover:text-white text-sm">
                   Instalação Linux
                 </Link>
               </li>
               <li>
-                <Link href="/servicos/office" className="text-gray-300 hover:text-white text-sm">
+                <Link href="/servicos/page" className="text-gray-300 hover:text-white text-sm">
                   Pacote Office
                 </Link>
               </li>
               <li>
-                <Link href="/servicos/backup" className="text-gray-300 hover:text-white text-sm">
+                <Link href="/servicos/page" className="text-gray-300 hover:text-white text-sm">
                   Backup e Migração
                 </Link>
               </li>
@@ -57,22 +57,22 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-4">Links Úteis</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/sobre" className="text-gray-300 hover:text-white text-sm">
+                <Link href="/" className="text-gray-300 hover:text-white text-sm">
                   Sobre Nós
                 </Link>
               </li>
               <li>
-                <Link href="/contato" className="text-gray-300 hover:text-white text-sm">
+                <Link href="/whatsapp/page" className="text-gray-300 hover:text-white text-sm">
                   Contato
                 </Link>
               </li>
               <li>
-                <Link href="/politica-privacidade" className="text-gray-300 hover:text-white text-sm">
+                <Link href="/" className="text-gray-300 hover:text-white text-sm">
                   Política de Privacidade
                 </Link>
               </li>
               <li>
-                <Link href="/termos" className="text-gray-300 hover:text-white text-sm">
+                <Link href="/" className="text-gray-300 hover:text-white text-sm">
                   Termos de Serviço
                 </Link>
               </li>
