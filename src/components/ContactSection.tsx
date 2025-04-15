@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
+import Link from 'next/link';
 
 export default function ContactSection() {
   return (
@@ -49,13 +50,13 @@ export default function ContactSection() {
             </div>
             
             <div className="mt-8">
-              <a 
-                href="/whatsapp/page" 
-                className="inline-flex items-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-green-600 hover:bg-green-700"
-              >
-                <MessageCircle size={20} className="mr-2" />
-                Falar no WhatsApp
-              </a>
+                      <Link 
+            href="/whatsapp/page"
+            className="inline-flex items-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-green-600 hover:bg-green-700"
+          >
+            <MessageCircle size={20} className="mr-2" />
+            Falar no WhatsApp
+          </Link>
             </div>
           </div>
         </div>

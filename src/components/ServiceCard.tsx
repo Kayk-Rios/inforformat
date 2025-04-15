@@ -1,5 +1,13 @@
 
-export default function ServiceCard({ title, description, icon }: any) {
+import { ReactNode } from 'react';
+
+interface ServiceCardProps {
+  title: string;
+  description: string;
+  icon: ReactNode;
+}
+
+export default function ServiceCard({ title, description, icon }: ServiceCardProps) {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
       <div className="p-6">

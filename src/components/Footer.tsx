@@ -12,19 +12,19 @@ export default function Footer() {
               Especialistas em formatação e serviços de informática para sua empresa ou residência.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <Linkedin size={20} />
-              </a>
-            </div>
+  <Link href="#" className="text-gray-400 hover:text-white">
+    <Facebook size={20} />
+  </Link>
+  <Link href="#" className="text-gray-400 hover:text-white">
+    <Instagram size={20} />
+  </Link>
+  <Link href="#" className="text-gray-400 hover:text-white">
+    <Twitter size={20} />
+  </Link>
+  <Link href="#" className="text-gray-400 hover:text-white">
+    <Linkedin size={20} />
+  </Link>
+</div>
           </div>
           
           <div>
