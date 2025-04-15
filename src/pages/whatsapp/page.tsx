@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function WhatsAppPage() {
   const phoneNumber = '5581981699096'; // Altere para seu número (com DDI + DDD)
-  const message = encodeURIComponent('Olá! Gostaria de mais informações.');
+  const message = encodeURIComponent('Olá! Gostaria de mais informações sobre a Infor Informat.');
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
 
   const handleRedirect = () => {
