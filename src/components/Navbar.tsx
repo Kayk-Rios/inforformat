@@ -19,14 +19,11 @@ export default function Navbar() {
                 <Link href="/" className="px-3 py-2 rounded-md hover:bg-blue-700">
                   Início
                 </Link>
-                <Link href="/servicos" className="px-3 py-2 rounded-md hover:bg-blue-700">
+                <Link href="/" className="px-3 py-2 rounded-md hover:bg-blue-700">
                   Serviços
                 </Link>
-                <Link href="/sobre" className="px-3 py-2 rounded-md hover:bg-blue-700">
+                <Link href="/" className="px-3 py-2 rounded-md hover:bg-blue-700">
                   Sobre
-                </Link>
-                <Link href="/contato" className="px-3 py-2 rounded-md hover:bg-blue-700">
-                  Contato
                 </Link>
                 <Link href="/whatsapp/page" className="flex items-center gap-2 bg-green-600 px-4 py-2 rounded-md hover:bg-green-700">
                   <Phone size={16} />
