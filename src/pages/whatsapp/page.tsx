@@ -1,11 +1,8 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 
 export default function WhatsAppPage() {
-  const router = useRouter();
-
   const phoneNumber = '5581981699096'; // Altere para seu número (com DDI + DDD)
   const message = encodeURIComponent('Olá! Gostaria de mais informações.');
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
